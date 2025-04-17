@@ -3,9 +3,144 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Favicon -->
+    <link id='favicon' rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-png">
+    <title>Portfolio | Rushikesh</title>
 </head>
-<body>
+
+<body oncontextmenu="return false">
+
+    <!-- pre loader -->
+    <!-- <div class="loader-container">
+      <img draggable="false" src="./assets/images/preloader.gif" alt="">
+    </div> -->
     
-</body>
-</html>
+    <!-- navbar starts -->
+    <header>
+            <a href="/" class="logo"><i class="fab fa-node-js"></i> Jigar</a>
+    
+            <div id="menu" class="fas fa-bars"></div>
+            <nav class="navbar">
+                <ul>
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+    </header>
+    <!-- navbar ends -->
+    
+    
+    <!-- hero section starts -->
+    <section class="home" id="home">
+        <div id="particles-js"></div>
+    
+        <div class="content">
+        <h2>Hi There,<br/> I'm Rushikesh <span>Thorat</span></h2>
+        <p>i am into <span class="typing-text"></span></p>
+        <a href="#about" class="btn"><span>About Me</span>
+          <i class="fas fa-arrow-circle-down"></i>
+        </a>
+        <div class="socials">
+            <ul class="social-icons">
+              <li><a class="linkedin" aria-label="LinkedIn" href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li> 
+              <li><a class="github" aria-label="GitHub" href="#" target="_blank"><i class="fab fa-github"></i></a></li>
+              <li><a class="twitter" aria-label="Twitter" href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+              <li><a class="telegram" aria-label="Telegram" href="#" target="_blank"><i class="fab fa-telegram-plane"></i></a></li>
+              <li><a class="instagram" aria-label="Instagram" href="#"><i class="fab fa-instagram" target="_blank"></i></a></li>
+              <li><a class="dev" aria-label="Dev" href="#" target="_blank"><i class="fab fa-dev"></i></a></li>
+            </ul>
+          </div>
+        </div>
+    <div class="image">
+        <img draggable="false" class="tilt" src="./assets/images/hero.png" alt="">
+    </div>
+    </section>
+    <!-- hero section ends -->
+    
+    
+    <!-- about section starts -->
+    <section class="about" id="about">
+        <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
+        
+        <div class="row">
+    
+        <div class="image">
+            <img draggable="false" class="tilt" src="./assets/images/profile2.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>I'm Rushikesh</h3>
+            <span class="tag">Full Stack Developer</span>
+            
+            <p>I am a Full-Stack developer based in Pune, India. 
+              I am an student from MES IMCC Pune.
+              I am very passionate about improving my coding skills & developing applications & websites.
+              I build WebApps and Websites using MERN Stack.
+              Working for myself to improve my skills.
+              Love to build Full-Stack clones. </p>
+            
+            <div class="box-container">
+                <!-- <div class="box">
+                  <p><span> age: </span> 20</p>
+                  <p><span> phone : </span> +91 XXX-XXX-XXXX</p>
+                </div> -->
+                <div class="box">
+                  <p><span> email : </span> rushithorat3010@gmail.com</p>
+                  <p><span> place : </span> Pune, India - 411058</p>
+                </div>
+            </div>
+            
+            <!-- <div class="resumebtn">
+                <a href="#" target="_blank" class="btn"><span>Resume</span>
+                    <i class="fas fa-chevron-right"></i>
+                </a>
+            </div> -->
+    
+        </div>
+        </div>
+    </section>
+    <!-- about section ends -->
+    
+    
+    
+    <!-- scroll top btn -->
+    <a href="#home" aria-label="ScrollTop" class="fas fa-angle-up" id="scroll-top"></a>
+    <!-- scroll back to top -->
+    
+    
+    <!-- ==== ALL MAJOR JAVASCRIPT CDNS STARTS ==== -->
+    <!-- jquery cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <!-- typed.js cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <!-- particle.js links -->
+    <script src="./assets/js/particles.min.js"></script>
+    <script src="./assets/js/app.js"></script>
+    
+    <!-- vanilla tilt.js links -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <!-- scroll reveal anim -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    
+    <script
+          type="text/javascript"
+          src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
+        ></script>
+    
+    <!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
+    
+    <script src="./assets/js/script.js"></script>
+    
+    </body>
+    </html>
+    
